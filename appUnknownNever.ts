@@ -13,7 +13,7 @@ if (typeof userInput === 'string') {
 
 const generateError = (message: string, code: number): never => {
   throw {message, code};
-}
+};
 
 try {
   generateError('This is a huge error', 402);
