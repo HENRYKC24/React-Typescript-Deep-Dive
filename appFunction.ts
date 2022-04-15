@@ -6,8 +6,8 @@ const printResult = (num: number): void => {
 
 printResult(add(4, 12));
 
-let combinedValues: Function;
+let combinedValues: (num: number, num2: number) => number;
 combinedValues = add;
-combinedValues = printResult;
+// combinedValues = printResult;
 
-console.log(combinedValues());
+console.log(combinedValues(9, 20));
