@@ -5,4 +5,5 @@ var printResult = function (num) {
 printResult(add(4, 12));
 var combinedValues;
 combinedValues = add;
-console.log(combinedValues(3, 30));
+combinedValues = printResult;
+console.log(combinedValues());

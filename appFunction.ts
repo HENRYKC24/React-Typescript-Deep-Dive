@@ -8,6 +8,6 @@ printResult(add(4, 12));
 
 let combinedValues: Function;
 combinedValues = add;
-// combinedValues = 5;
+combinedValues = printResult;
 
-console.log(combinedValues(3, 30));
+console.log(combinedValues());
