@@ -1,5 +1,5 @@
 let userInput: unknown; // using any here is error prone. Always use unknown type
-let userName: string;
+let userName: string = '';
 let userAge: number = 17;
 
 userInput = 10;
