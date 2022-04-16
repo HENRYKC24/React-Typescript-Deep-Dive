@@ -3,8 +3,8 @@ interface UserInterface {
 };
 
 class User implements UserInterface {
-  firstName: string;
-  lastName: string;
+  private firstName: string; // can only be used inside this class
+  protected lastName: string; // extends to a child class but not public
 
   constructor(firstName: string, lastName: string) {
     this.firstName = firstName;
