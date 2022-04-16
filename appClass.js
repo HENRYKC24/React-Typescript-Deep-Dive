@@ -1,3 +1,4 @@
+;
 var User = /** @class */ (function () {
     function User(firstName, lastName) {
         this.firstName = firstName;

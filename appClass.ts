@@ -1,4 +1,8 @@
-class User {
+interface UserInterface {
+  getFullName(): string;
+};
+
+class User implements UserInterface {
   firstName: string;
   lastName: string;
 
