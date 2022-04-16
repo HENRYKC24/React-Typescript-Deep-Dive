@@ -1,6 +1,7 @@
-var userInput; // using any here is error prone. Always use unknown type
-var userName;
-var userAge = 17;
+"use strict";
+let userInput; // using any here is error prone. Always use unknown type
+let userName = '';
+let userAge = 17;
 userInput = 10;
 userInput = 'Man';
 if (typeof userInput === 'string') {
@@ -9,8 +10,8 @@ if (typeof userInput === 'string') {
 else if (typeof userInput === 'number') {
     userAge = userInput;
 }
-var generateError = function (message, code) {
-    throw { message: message, code: code };
+const generateError = (message, code) => {
+    throw { message, code };
 };
 try {
     generateError('This is a huge error', 402);

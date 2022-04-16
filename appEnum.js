@@ -1,3 +1,4 @@
+"use strict";
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = 0] = "ADMIN";
@@ -5,9 +6,9 @@ var Role;
     Role[Role["AUTHOR"] = 2] = "AUTHOR";
 })(Role || (Role = {}));
 ;
-var person = {
+const person = {
     name: 'Henry Kc',
     age: 40,
-    role: Role.ADMIN
+    role: Role.ADMIN,
 };
 console.log(person);
