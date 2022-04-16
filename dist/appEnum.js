@@ -6,9 +6,9 @@ var Role;
     Role[Role["AUTHOR"] = 2] = "AUTHOR";
 })(Role || (Role = {}));
 ;
-const person = {
+const someone = {
     name: 'Henry Kc',
     age: 40,
     role: Role.ADMIN,
 };
-console.log(person);
+console.log(someone);

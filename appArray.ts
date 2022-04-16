@@ -1,4 +1,4 @@
-const person: {
+const human: {
   name: string;
   age: number;
   hobbies: string[];
@@ -8,5 +8,5 @@ const person: {
   hobbies: ['football', 'chess']
 };
 
-console.log(person);
+console.log(human);
 

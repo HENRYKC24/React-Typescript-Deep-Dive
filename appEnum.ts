@@ -1,6 +1,6 @@
 enum Role {ADMIN, READ_ONLY, AUTHOR};
 
-const person: {
+const someone: {
   name: string;
   age: number;
   role: number;
@@ -10,4 +10,4 @@ const person: {
   role: Role.ADMIN,
 };
 
-console.log(person);
+console.log(someone);

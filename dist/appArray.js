@@ -1,7 +1,7 @@
 "use strict";
-const person = {
+const human = {
     name: 'Henry Kc',
     age: 40,
     hobbies: ['football', 'chess']
 };
-console.log(person);
+console.log(human);
